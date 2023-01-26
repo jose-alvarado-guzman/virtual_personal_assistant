@@ -2,7 +2,7 @@ import yaml
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 
-class Assistant():
+class Dialect():
 
     def __init__(self, name):
         self.name = name

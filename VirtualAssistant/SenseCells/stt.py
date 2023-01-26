@@ -1,6 +1,7 @@
 "Module use to convert speech to text."
 
 import os
+import json
 from typing import Optional, Dict, Any
 import speech_recognition as sr
 
@@ -37,7 +38,7 @@ def listen(save_audio : Optional[bool] = False,
     try:
         result = recognizer.recognize_google(audio)
     except sr.UnknownValueError:
-        result = {'error':'Processing'}
+        result = 'error Processing'
     except sr.RequestError:
-        result = {'error':'Connecting'}
+        result = 'error Connecting'
     return result
