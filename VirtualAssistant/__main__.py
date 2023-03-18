@@ -45,6 +45,6 @@ if __name__ == '__main__':
                 print(response)
                 speak(response)
             elif 'processing' in stt:
-                speak("Sorry I did not undestand your request")
+                speak("Sorry I did not understand your request")
             elif 'connecting' in stt:
                 speak('Sorry, I have trouble connecting to the internet')

@@ -18,7 +18,6 @@ PyAudio==0.2.13
 pymongo==3.13.0
 python-dateutil==2.7.5
 pytz==2022.7.1
-PyYAML==3.13
 regex==2022.10.31
 requests==2.28.2
 six==1.16.0
